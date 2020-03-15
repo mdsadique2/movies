@@ -1,0 +1,28 @@
+.organizationPage {
+    
+}
+
+.organizationPage .existingOrganisation {
+    max-height: 500px;
+    overflow: auto;
+    border-radius: var(--border-radius-lg);
+    border: 1px solid var(--border-color-lighter);
+
+}
+
+.organizationPage .existingOrganisation div:last-child {
+    border: 0px;
+}
+
+.organizationPage .organizationButton{
+    border-bottom: 1px solid var(--border-color-lighter);
+    background: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: var(--all-transtion); 
+}
+
+.organizationPage .organizationButton:hover {
+    transition: var(--all-transtion); 
+    background: var(--color-black-lightest);
+}

@@ -1,0 +1,28 @@
+.pageMenu {
+    background: var(--background-color);
+    position: relative;
+    z-index: 100;
+}
+
+.pageMenu .menuTitle {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.pageMenu .filterButton {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.pageMenu .filterBox {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,23 @@
+.globalLoadingSpinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    /* color: var(--primary-blue-color); */
+    width: 100%;
+    height: 100%;
+    /* background: rgba(255,255,255,0.75); */
+}
+
+.globalLoadingSpinner .icon {
+    margin: auto;
+}
+
+.globalLoadingSpinner.fill-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}

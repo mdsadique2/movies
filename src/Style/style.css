@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Silka';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    url(../Resources/fonts/Silka/Silka-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Silka';
+  font-style: normal;
+  font-weight: bold;
+  src:
+  url(../Resources/fonts/Silka/Silka-Bold.otf) format('opentype'),
+}
+
+@font-face {
+  font-family: 'Silka';
+  font-style: normal;
+  font-weight: lighter;
+  src: url(../Resources/fonts/Silka/Silka-ExtraLight.otf) format('opentype'),
+}
+
+@font-face {
+  font-family: 'Silka';
+  font-style: normal;
+  font-weight: 300;
+  src:
+  url(../Resources/fonts/Silka/Silka-Light.otf) format('opentype'),
+}
+
+
+:root {
+    --font-small: 1.2rem;
+    --background-color: #192027;
+    --black-transparent-color: rgba(0,0,0,0.75);
+    --all-transtion: all 0.25s ease;
+    --border-color: #333;
+    --color-default-blue: #4eb3cf;
+}
+
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Silka', 'Open Sans', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif', 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+  color: #000;
+}
+  
+
+.notification-error {
+  background: #fff1f0;
+  border: 1px solid #ffa39e;
+}
+
+.notification-success {
+  background: #f6ffed;
+  border: 1px solid #b7eb8f;
+}
+
+.notification-info {
+  background: #e6f7ff;
+  border: 1px solid #91d5ff;
+}
+
+.notification-warning {
+  background: #fffbe6;
+  border: 1px solid #ffe58f;
+}
+
+.clickableText {
+  color: var(--primary-blue-color);
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.clickableText:hover {
+  opacity: 1;
+  transition: all 0.25s ease;
+}
+
+.preventMarginCollapse {
+  height: 1px;
+}

@@ -1,0 +1,59 @@
+.app .ant-layout-header {
+    padding: 0 25px;
+}
+
+.app .ant-menu.ant-menu-dark .ant-menu-item-selected, 
+.app .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    color: #2b9dc3;
+    background: transparent;
+}
+
+.app .ant-divider-inner-text {
+    font-size: 2rem;
+    color: #ccc;
+}
+
+
+.app .ant-input-affix-wrapper .ant-input {
+    background: transparent;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    border-bottom: 1px solid var(--border-color);
+    box-sizing: border-box;
+}
+
+.app .ant-drawer-content {
+    background: var(--background-color);
+}
+.app .ant-drawer-header {
+    background: var(--background-color);
+    color: #fff;
+}
+
+.app .ant-drawer-header .ant-drawer-title {
+    color: inherit;
+}
+
+.app .ant-drawer-header .ant-drawer-close {
+    color: inherit;
+}
+
+.app .ant-select-selection {
+    background-color: transparent;
+    color: #fff;
+}
+
+.app .ant-select-selection .ant-select-arrow {
+    color: inherit;
+}
+
+.ant-select-dropdown.ant-select-dropdown--single {
+    background: var(--background-color);
+    color: inherit;
+    border: 1px solid #ccc;
+}
+
+li.ant-select-dropdown-menu-item:hover:not(.ant-select-dropdown-menu-item-disabled) {
+    color: #000;
+}
